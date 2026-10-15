@@ -2,6 +2,8 @@
 
 > **System Overview:**
 > The **JanSeva Agent** is an AI-powered Multi-Agent Welfare Claim Orchestrator designed for government welfare delivery systems (e.g., Digital India / Citizen Services). It bridges field workers and administrative officers by orchestrating synthetic audio transcription, vision document extraction, policy rule cross-referencing, discrepancy flagging, and human-in-the-loop approval dossiers.
+>
+> 🌐 **GitHub Repository:** [https://github.com/Krisshnaa009/JANSEVA-DEMO](https://github.com/Krisshnaa009/JANSEVA-DEMO)
 
 ---
 
