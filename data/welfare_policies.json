@@ -1,0 +1,56 @@
+{
+  "policies": [
+    {
+      "scheme_id": "PM-KISAN",
+      "scheme_name": "Pradhan Mantri Kisan Samman Nidhi",
+      "category": "Agriculture & Farmer Welfare",
+      "benefit_amount": "₹6,000 / year (3 installments of ₹2,000)",
+      "eligibility_rules": {
+        "max_annual_income": 200000,
+        "landholding_required": true,
+        "max_land_hectares": 2.0,
+        "min_age": 18,
+        "required_documents": ["Aadhaar ID", "Land Record / Khasra-Khatauni", "Bank Passbook"]
+      },
+      "discrepancy_checks": [
+        "name_match_threshold",
+        "income_ceiling_compliance",
+        "active_bank_linkage"
+      ]
+    },
+    {
+      "scheme_id": "PMAY-G",
+      "scheme_name": "Pradhan Mantri Awaas Yojana (Gramin)",
+      "category": "Rural Housing Assistance",
+      "benefit_amount": "₹1,20,000 unit assistance for pucca house",
+      "eligibility_rules": {
+        "max_annual_income": 120000,
+        "landholding_required": false,
+        "housing_status": "Kutcha / Homeless / Deprived",
+        "min_age": 21,
+        "required_documents": ["Aadhaar ID", "SECC Deprivation Proof", "Ration Card"]
+      },
+      "discrepancy_checks": [
+        "bpl_income_ceiling",
+        "existing_pucca_house_verification",
+        "secc_family_id_match"
+      ]
+    },
+    {
+      "scheme_id": "NSAP-IGNOAPS",
+      "scheme_name": "Indira Gandhi National Old Age Pension Scheme",
+      "category": "Social Security & Senior Support",
+      "benefit_amount": "₹1,000 / month direct benefit transfer",
+      "eligibility_rules": {
+        "max_annual_income": 60000,
+        "min_age": 60,
+        "required_documents": ["Aadhaar ID", "Age Proof / Voter Card", "BPL Ration Card"]
+      },
+      "discrepancy_checks": [
+        "age_threshold_verification",
+        "bpl_census_validation",
+        "pension_duplication_check"
+      ]
+    }
+  ]
+}
